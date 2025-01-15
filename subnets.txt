@@ -1,0 +1,62 @@
+IP ADRESS MANAGEMENT for small office network
+
+Given Network = 200.152.14.0 /24
+N:users = 20 
+
+SUBNETS
+
+subnetmask = 255.255.255.224   
+CIDR = /27
+
+# 8 subnetworks 
+# 30 avaliable hosts per subnetwork 
+
+Subnets 
+----------------------------------------------------------------------------------
+1st = 200.152.14.0 /27
+	broadcast = 200.152.14.31
+	first avali host = 200.152.14.1
+	default gateway def = 200.152.14.1
+	subnetmask = 255.255.255.224 
+ 
+2nd = 200.152.14.32 /27
+	broadcast = 200.152.14.63
+	first avali host = 200.152.14.33
+	default gateway def = 200.152.14.33
+	subnetmask = 255.255.255.224 
+
+3rd = 200.152.14.64 /27
+	broadcast = 200.152.14.95
+	first avali host = 200.152.14.65
+	default gateway def = 200.152.14.65
+	subnetmask = 255.255.255.224 
+
+4th = 200.152.14.96 /27
+	broadcast = 200.152.14.127
+	first avali host = 200.152.14.97
+	default gateway def = 200.152.14.97
+	subnetmask = 255.255.255.224 
+
+5th = 200.152.14.128 /27
+	broadcast = 200.152.14.159
+	first avali host = 200.152.14.129
+	default gateway def = 200.152.14.129
+	subnetmask = 255.255.255.224 
+
+6th = 200.152.14.160 /27
+	broadcast = 200.152.14.191
+	first avali host = 200.152.14.161
+	default gateway def = 200.152.14.161
+	subnetmask = 255.255.255.224 
+
+7th = 200.152.14.192 /27
+	broadcast = 200.152.14.223
+	first avali host = 200.152.14.193
+	default gateway def = 200.152.14.193
+	subnetmask = 255.255.255.224 
+
+8th = 200.152.14.224 /27
+	broadcast = 200.152.14.255
+	first avali host = 200.152.14.225
+	default gateway def = 200.152.14.225
+	subnetmask = 255.255.255.224 
